@@ -1,0 +1,26 @@
+# Lightweight RAG setup - best results without heavy dependencies
+
+# LLM API - Google Gemini
+google-generativeai>=0.3.0
+
+# Embeddings (lightweight, no torch needed)
+sentence-transformers==2.5.1
+
+# Vector store (CPU-only, fast)
+chromadb==0.4.22
+
+# Document processing
+pypdf==4.0.2
+python-magic-bin==0.4.14
+
+# API & UI
+fastapi==0.109.2
+uvicorn==0.27.1
+streamlit==1.31.1
+
+# Utilities
+python-dotenv==1.0.1
+pydantic==2.6.1
+pydantic-settings==2.1.0
+httpx==0.26.0
+loguru==0.7.2
